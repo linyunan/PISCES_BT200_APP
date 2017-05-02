@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/f3f3f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lly_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/f3f3f3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/A04a8ec">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                android:src="@mipmap/btn_back"/>
+
+            <TextView
+                android:id="@+id/tv_equipment_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="qqqq"
+                android:textColor="@color/ffffff"
+                android:layout_centerInParent="true"
+                android:textSize="18sp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lly_admin_power"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/rly_user_manage"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:background="@color/ffffff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:text="用户管理"
+                    android:gravity="center_vertical"
+                    android:textSize="15.2sp"
+                    android:textColor="@color/A333333"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="10dp"
+                    android:src="@mipmap/btn_enter"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rly_password_manage"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:background="@color/ffffff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:text="密码管理"
+                    android:gravity="center_vertical"
+                    android:textSize="15.2sp"
+                    android:textColor="@color/A333333"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="10dp"
+                    android:src="@mipmap/btn_enter"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rly_unlock_record"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:background="@color/ffffff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:text="开锁记录"
+                    android:gravity="center_vertical"
+                    android:textSize="15.2sp"
+                    android:textColor="@color/A333333"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="10dp"
+                    android:src="@mipmap/btn_enter"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/rly_about_equipment"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:background="@color/ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="关于设备"
+                android:gravity="center_vertical"
+                android:textSize="15.2sp"
+                android:textColor="@color/A333333"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_enter"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:background="@color/ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="连接提示音"
+                android:gravity="center_vertical"
+                android:textSize="15.2sp"
+                android:textColor="@color/A333333"/>
+
+            <ImageView
+                android:id="@+id/img_link_sounds"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_off"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:background="@color/ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="开锁提示音"
+                android:gravity="center_vertical"
+                android:textSize="15.2sp"
+                android:textColor="@color/A333333"/>
+
+            <ImageView
+                android:id="@+id/img_unlock_sounds"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_off"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rly_unlock_way"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:background="@color/ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="开锁方式"
+                android:gravity="center_vertical"
+                android:textSize="15.2sp"
+                android:textColor="@color/A333333"/>
+
+            <ImageView
+                android:id="@+id/img_unlock_way"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:paddingLeft="30dp"
+                android:src="@mipmap/btn_up"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lly_unlock_way"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ffffff"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/shadow"
+                android:alpha="30" />
+
+            <RelativeLayout
+                android:id="@+id/rly_auto_unlock"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:background="@color/f7f7f7">
+
+                <TextView
+                    android:id="@+id/tv_auto_unlock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="15dp"
+                    android:text="自动开锁"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/A04a8ec"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true">
+
+                    <TextView
+                        android:id="@+id/tv_unlock_distance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="10"
+                        android:textSize="14sp"
+                        android:textColor="@color/A04a8ec"/>
+
+                    <TextView
+                        android:id="@+id/tv_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingRight="15dp"
+                        android:text="m"
+                        android:textSize="14sp"
+                        android:textColor="@color/A04a8ec"/>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/dddddd"/>
+
+            <RelativeLayout
+                android:id="@+id/rly_light_screen_unlock"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:background="@color/f7f7f7">
+
+                <TextView
+                    android:id="@+id/tv_light_screen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="15dp"
+                    android:text="点亮屏幕开锁"
+                    android:gravity="center_vertical"
+                    android:textSize="15.2sp"
+                    android:textColor="@color/A333333"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/shadow"
+                android:alpha="30" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

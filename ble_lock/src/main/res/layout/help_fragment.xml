@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lly_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/f3f3f3"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/A04a8ec">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="帮助中心"
+                android:textColor="@color/ffffff"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rly_basic_introduction"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/ffffff"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:src="@mipmap/help_icon_1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="基本介绍"
+                    android:textColor="@color/A333333"
+                    android:textSize="15.2sp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_enter" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rly_user_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/ffffff"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:src="@mipmap/help_icon_2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="使用说明"
+                    android:textColor="@color/A333333"
+                    android:textSize="15.2sp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_enter" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rly_safy_question"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/ffffff"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:src="@mipmap/help_icon_3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="安全问题"
+                    android:textColor="@color/A333333"
+                    android:textSize="15.2sp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_enter" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rly_function_solution"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/ffffff"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:src="@mipmap/help_icon_4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="功能解答"
+                    android:textColor="@color/A333333"
+                    android:textSize="15.2sp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_enter" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rly_trouble_remove"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/ffffff"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:src="@mipmap/help_icon_5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="故障排除"
+                    android:textColor="@color/A333333"
+                    android:textSize="15.2sp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_enter" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rly_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/ffffff"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:src="@mipmap/help_icon_6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="关于我们"
+                    android:textColor="@color/A333333"
+                    android:textSize="15.2sp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_enter" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

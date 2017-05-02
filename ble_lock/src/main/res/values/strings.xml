@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">锁卫士</string>
+
+    <string name="title">博佳琴</string>
+
+    <string name="state_connected">状态：已连接</string>
+    <string name="state_disconnected">状态：未连接</string>
+    <string name="connected">连接</string>
+    <string name="disconnected">断开</string>
+    <string name="scanning">扫描中...</string>
+    <string name="connecting">连接中...</string>
+    <string name="disconnecting">正在断开...</string>
+    <string name="dev_conn_number">设备连接数量：</string>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+
+    <string name="question_lock_introduce">什么是智能门锁/挂锁？</string>
+    <string name="answer_lock_introduce">这是两款基于人们对生活需求，安全渴望大势所趋应运而生的智能产品，门锁是家庭安全的第一道屏障，挂锁是便携式的安全屏障，两款产品都支持无线开锁。</string>
+    <string name="question_door_and_padlock_can_use_a_app">门/挂锁可共用一个APP吗？</string>
+    <string name="answer_door_and_padlock_can_use_a_app">当然可以，只要在设备上添加了该手机权限，就可以共用一个APP，既方便，更为您的手机节省内存开销。</string>
+
+    <string name="question_how_to_open_the_door_and_padlock">如何开门/挂锁？</string>
+    <string name="answer_how_to_open_the_door_and_padlock">门锁开门方式有四种：一是最便捷的手机无线方式，其次是TM感应卡，再次是输入密码，最后为您保留了备用机械钥匙孔。挂锁有两种方式：一是手机无线，二是密码。</string>
+    <string name="question_mobile_phone_lost_how_to_do">手机丢了怎么办？</string>
+    <string name="answer_mobile_phone_lost_how_to_do">您可用门/挂锁设备进入管理员模式删除该手机用户，其次您可用管理员手机删除该手机用户，只需更新下设备信息即可，甚至您无需删除该手机用户，只需注销该手机卡号，等换了手机（号）再重新安装APP即可，原来手机自动解除权限。</string>
+    <string name="question_if_it_is_admin_and_the_phone_lost_how_to_do">如果是管理员手机丢了怎么办？</string>
+    <string name="answer_if_it_is_admin_and_the_phone_lost_how_to_do">其一，如上，可注销手机卡号，重装APP即可。其次，复位设备，这即将删除所有设备用户信息。（为了不要删除其他用户信息，建议您使用第一种方法即可）</string>
+    <string name="question_how_to_unlock_in_the_phone">手机是如何开锁的呢？</string>
+    <string name="answer_how_to_unlock_in_the_phone">通过在设备设置该手机权限，可设定自动开锁和点亮屏幕开锁方式。自动模式只需唤醒设备即可开门，无需拿起手机。点亮屏幕开锁模式则需先点亮手机屏幕，再唤醒设备即可开门。</string>
+    <string name="question_how_long_battery_can_be_used">电池可用多久？</string>
+    <string name="answer_how_long_battery_can_be_used">待机时间可长达5年之久，正常更换电池在1-2年之间。</string>
+
+    <string name="question_how_to_ensure_product_safety">那你们产品安全保障如何？</string>
+    <string name="answer_how_to_ensure_product_safety">产品安全性非常高，此产品目前为单机版本，无法被无线破解，安全性比云端版本高非常多，而且我们有期限的动态密码，加上AES-128位数据加密，要破解更是难上加难。当被破解后这已经是回想尧舜年间了，所以请不用担心安全问题。</string>
+    <string name="question_phone_is_stolen_how_to_do">如果手机被偷怎么办？</string>
+    <string name="answer_phone_is_stolen_how_to_do">您只需要立即挂失手机卡号即可解除被偷手机的开门权限。</string>
+
+    <string name="question_why_set_lock_the_safe_distance">为什么要设置门锁“开锁安全距离”？</string>
+    <string name="answer_why_set_lock_the_safe_distance">开锁距离是为了防小人而设计，所以为了您家庭安全，设置一个您觉得合适的距离开门是很有必要的。</string>
+    <string name="question_why_every_time_you_need_to_wake_up_to_unlock">为何每次都需要唤醒才能开锁？</string>
+    <string name="answer_why_every_time_you_need_to_wake_up_to_unlock">此门/挂锁为智能锁，自然要做到低功耗状态，为您增加电池使用寿命。在您不需要使用情况下，为您待机。</string>
+    <string name="question_what_is_sleep_state">什么是睡眠状态？</string>
+    <string name="answer_what_is_sleep_state">睡眠状态即为低功耗状态，此时无法无线开锁。</string>
+    <string name="question_is_the_product_support_all_phone">此产品支持所有型号手机吗？</string>
+    <string name="answer_is_the_product_support_all_phone">手机蓝牙4.0及以上，安卓系统4.3及以上，IOS系统6.0及以上都支持。</string>
+
+    <string name="question_mobile_phone_set_auto_unlock_but_not_unlock">门/挂锁手机设置自动开锁，却没开锁什么情况？</string>
+    <string name="answer_mobile_phone_set_auto_unlock_but_not_unlock">手机可能安装了安全软件，自动把不使用的APP软件后台封杀，或者关掉，导致无法开锁。</string>
+    <string name="question_change_battery_and_pw_error">门/挂锁更换电池后，输入原来设置密码出错怎么办？</string>
+    <string name="answer_change_battery_and_pw_error">请拿掉电池后盖，看是否电池与底盖接触不良，重新安放电池即可。</string>
+
+    <string name="about_us_1">\u3000\u3000厦门博佳琴电子科技有限公司于2012年在福建省厦门市思明区软件园二期设立，为厦门市“双百计划”领军型创业人才的企业。</string>
+    <string name="about_us_2">\u3000\u3000博佳琴专注于指纹智能挂锁、蓝牙智能挂锁、蓝牙智能门锁技术，将互联网软件和硬件的完美结合，是研发生产一体化的科技型创业企业。</string>
+    <string name="about_us_3">\u3000\u3000本公司产品结构设计、行使方式等已申请通过外观专利、实用新型专利等，任何抄袭、模仿本公司的产品，违者必究。</string>
+
+</resources>

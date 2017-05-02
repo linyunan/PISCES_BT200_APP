@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lly_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/f3f3f3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/A04a8ec">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:src="@mipmap/btn_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关于设备"
+            android:textColor="@color/ffffff"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@color/ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:text="设备名称"
+            android:gravity="center_vertical"
+            android:textSize="15.2sp"
+            android:textColor="@color/A333333"/>
+
+        <TextView
+            android:id="@+id/tv_equipment_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="30dp"
+            android:text="大门"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:textSize="15.2sp"
+            android:textColor="@color/A04a8ec"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@color/ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:text="产品序列号"
+            android:gravity="center_vertical"
+            android:textSize="15.2sp"
+            android:textColor="@color/A333333"/>
+
+        <TextView
+            android:id="@+id/tv_product_serial_number"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:text="11111111"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:textSize="15.2sp"
+            android:textColor="@color/A333333"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@color/ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:text="产品类型"
+            android:gravity="center_vertical"
+            android:textSize="15.2sp"
+            android:textColor="@color/A333333"/>
+
+        <TextView
+            android:id="@+id/tv_product_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:text="家用门锁"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:textSize="15.2sp"
+            android:textColor="@color/A333333"/>
+    </RelativeLayout>
+
+</LinearLayout>

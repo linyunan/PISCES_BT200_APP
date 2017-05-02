@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "G:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "H:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "H:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "G:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "G:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "H:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "H:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    }
+]

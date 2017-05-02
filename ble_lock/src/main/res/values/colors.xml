@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#04a8ec</color>
+    <color name="colorPrimaryDark">#04a8ec</color>
+    <color name="colorAccent">#04a8ec</color>
+
+
+
+    <color name="A101f31">#101f31</color>
+    <color name="f3f3f3">#F3F3F3</color>
+    <color name="dddddd">#dddddd</color>
+    <color name="ffffff">#ffffff</color>
+    <color name="A04a8ec">#04a8ec</color>
+    <color name="A555555">#555555</color>
+    <color name="A333333">#333333</color>
+    <color name="A00000000">#00000000</color>
+    <color name="efefef">#efefef</color>
+    <color name="A7f000000">#7f000000</color>
+    <color name="eaeaea">#eaeaea</color>
+    <color name="A999999">#999999</color>
+    <color name="ccccccc">#cccccc</color>
+    <color name="A666666">#666666</color>
+    <color name="f7f7f7">#f7f7f7</color>
+    <color name="ababab">#ababab</color>
+    <color name="A4e4e4e">#4E4E4E</color>
+    <color name="A0fb818">#0fb818</color>
+    <color name="A0498ec">#0498ec</color>
+    <color name="d2650a">#d2650a</color>
+    <color name="ca091c">#ca091c</color>
+
+
+    <!-- 下拉刷新 -->
+    <color name="refresh_heard_text">#333333</color>
+    <color name="refresh_heard_sub_text">#9D9D9D</color>
+    <color name="side_text">#999999</color>
+    <color name="item_stroke">#E9E9E9</color>
+
+    <drawable name="clr_normal">#04a8ec</drawable>
+    <drawable name="clr_pressed">#0498ec</drawable>
+</resources>

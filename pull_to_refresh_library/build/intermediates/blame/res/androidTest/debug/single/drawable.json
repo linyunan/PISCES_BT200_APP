@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "G:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "G:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "G:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "H:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "H:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "H:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "H:\\BLE_Lock\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    }
+]

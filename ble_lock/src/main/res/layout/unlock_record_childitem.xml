@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/f3f3f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lly_unlock_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/f7f7f7">
+
+        <ImageView
+            android:id="@+id/img_shadow_head"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@drawable/shadow"
+            android:alpha="30"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/rly_unlock_record_item"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:background="@color/f7f7f7">
+
+            <TextView
+                android:id="@+id/tv_child_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="2016年6月"
+                android:gravity="center_vertical"
+                android:textSize="15.2sp"
+                android:textColor="@color/A666666"/>
+
+            <TextView
+                android:id="@+id/tv_unlock_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:text="07-19 17:12"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:textSize="15.2sp"
+                android:textColor="@color/A666666"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_divide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dddddd"/>
+
+    <ImageView
+        android:id="@+id/img_shadow_tail"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/shadow"
+        android:alpha="30"
+        android:visibility="gone"/>
+
+</LinearLayout>

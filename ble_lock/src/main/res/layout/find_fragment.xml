@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lly_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/f3f3f3"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/A04a8ec">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/title"
+                android:textColor="@color/ffffff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_scanBle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="添加设备"
+                android:textColor="@color/ffffff"
+                android:background="@drawable/add_device_selector"
+                android:textSize="15.2sp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lly_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/lly_all_equipment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rly_all_equipment"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/ffffff"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="所有设备"
+                        android:textColor="@color/A333333"
+                        android:textSize="15.2sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center_vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="20dp"
+                            android:text="门锁"
+                            android:textColor="@color/A333333"
+                            android:textSize="15.2sp" />
+
+                        <ImageView
+                            android:id="@+id/img_down_up"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/btn_down" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@drawable/shadow"
+                    android:alpha="30" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <!--<com.handmark.pulltorefresh.library.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"-->
+                    <!--android:id="@+id/plv_equipment_name"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:cacheColorHint="@color/A00000000"-->
+                    <!--android:columnWidth="90dp"-->
+                    <!--android:divider="@color/A00000000"-->
+                    <!--android:footerDividersEnabled="false"-->
+                    <!--android:horizontalSpacing="0.0px"-->
+                    <!--android:numColumns="2"-->
+                    <!--android:scrollbars="none"-->
+                    <!--android:verticalSpacing="0.0px"-->
+                    <!--ptr:ptrAnimationStyle="flip"-->
+                    <!--ptr:ptrHeaderBackground="@color/efefef"-->
+                    <!--ptr:ptrHeaderSubTextColor="@color/refresh_heard_sub_text"-->
+                    <!--ptr:ptrHeaderTextColor="@color/refresh_heard_text"-->
+                    <!--ptr:ptrMode="both"></com.handmark.pulltorefresh.library.PullToRefreshListView>-->
+
+                <ListView
+                    android:id="@+id/lv_device"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+                <!--使背景变灰-->
+                <View
+                    android:id="@+id/main_darkview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/A7f000000"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

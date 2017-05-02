@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yundiankj.ble_lock">
+
+    <!-- 添加访问手机位置的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 添加访问手机状态的权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Classes.Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Classes.Activity.MainActivity"></activity>
+        <activity android:name=".Classes.Activity.BLEDetails"></activity>
+        <activity android:name=".Classes.Activity.UserManage.UserManage"></activity>
+        <activity android:name=".Classes.Activity.UserManage.PhoneUserManage"></activity>
+        <activity android:name=".Classes.Activity.UserManage.KeyboardUserManage"></activity>
+        <activity android:name=".Classes.Activity.UserManage.TMCardUserManage"></activity>
+        <activity android:name=".Classes.Activity.UserManage.KeyBordAdminUser"></activity>
+        <activity android:name=".Classes.Activity.UserManage.KeyBordOrdinaryUser"></activity>
+        <activity android:name=".Classes.Activity.UserManage.KeyBordDisposableUser"></activity>
+        <activity android:name=".Classes.Activity.PassWordManage.PassWordManage"></activity>
+        <activity android:name=".Classes.Activity.PassWordManage.OrdinaryUserPassWord"></activity>
+        <activity android:name=".Classes.Activity.PassWordManage.DisposableUserPassWord"></activity>
+        <activity android:name=".Classes.Activity.UnlockRecord"></activity>
+        <activity android:name=".Classes.Activity.AboutEquipment"></activity>
+        <activity android:name=".Classes.Activity.HelpCenter.BasicIntroduction"></activity>
+        <activity android:name=".Classes.Activity.HelpCenter.UserInstruction"></activity>
+        <activity android:name=".Classes.Activity.HelpCenter.SafyQuestion"></activity>
+        <activity android:name=".Classes.Activity.HelpCenter.FunctionSolution"></activity>
+        <activity android:name=".Classes.Activity.HelpCenter.TroubleRemove"></activity>
+        <activity android:name=".Classes.Activity.HelpCenter.AboutUs"></activity>
+
+    </application>
+
+</manifest>

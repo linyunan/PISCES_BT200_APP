@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    android:background="@color/f3f3f3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/f3f3f3"
+        android:layout_marginBottom="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/A04a8ec">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                android:src="@mipmap/btn_back"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="功能解答"
+                android:textColor="@color/ffffff"
+                android:layout_centerInParent="true"
+                android:textSize="18sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rly_question_1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:background="@color/ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="@string/question_why_set_lock_the_safe_distance"
+                android:gravity="center_vertical"
+                android:textSize="15.2sp"
+                android:textColor="@color/A333333"/>
+
+            <ImageView
+                android:id="@+id/img_down_up_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_up"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lly_answer_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/shadow"
+                android:alpha="30" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/f7f7f7">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="@string/answer_why_set_lock_the_safe_distance"
+                    android:gravity="center_vertical"
+                    android:textSize="15.2sp"
+                    android:textColor="@color/A4e4e4e"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/shadow"
+                android:alpha="30" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_divide_1"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/rly_question_2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:background="@color/ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="@string/question_why_every_time_you_need_to_wake_up_to_unlock"
+                android:gravity="center_vertical"
+                android:textSize="15.2sp"
+                android:textColor="@color/A333333"/>
+
+            <ImageView
+                android:id="@+id/img_down_up_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_up"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lly_answer_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/shadow"
+                android:alpha="30" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/f7f7f7">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="@string/answer_why_every_time_you_need_to_wake_up_to_unlock"
+                    android:gravity="center_vertical"
+                    android:textSize="15.2sp"
+                    android:textColor="@color/A4e4e4e"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/shadow"
+                android:alpha="30" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_divide_2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/rly_question_3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:background="@color/ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="@string/question_what_is_sleep_state"
+                android:gravity="center_vertical"
+                android:textSize="15.2sp"
+                android:textColor="@color/A333333"/>
+
+            <ImageView
+                android:id="@+id/img_down_up_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_up"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lly_answer_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/shadow"
+                android:alpha="30" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/f7f7f7">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="@string/answer_what_is_sleep_state"
+                    android:gravity="center_vertical"
+                    android:textSize="15.2sp"
+                    android:textColor="@color/A4e4e4e"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/shadow"
+                android:alpha="30" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_divide_3"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/rly_question_4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:background="@color/ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="@string/question_is_the_product_support_all_phone"
+                android:gravity="center_vertical"
+                android:textSize="15.2sp"
+                android:textColor="@color/A333333"/>
+
+            <ImageView
+                android:id="@+id/img_down_up_4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:src="@mipmap/btn_up"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lly_answer_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/shadow"
+                android:alpha="30" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/f7f7f7">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="@string/answer_is_the_product_support_all_phone"
+                    android:gravity="center_vertical"
+                    android:textSize="15.2sp"
+                    android:textColor="@color/A4e4e4e"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/shadow"
+                android:alpha="30" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

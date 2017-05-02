@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lly_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/f3f3f3"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/A04a8ec">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:src="@mipmap/btn_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="手机用户管理"
+            android:textColor="@color/ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:paddingLeft="20dp"
+            android:text="添加"
+            android:textColor="@color/ffffff"
+            android:textSize="15.2sp"
+            android:background="@drawable/blue_button_selector"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <!--<com.handmark.pulltorefresh.library.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/plv_phone_user_manage"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:cacheColorHint="@color/A00000000"-->
+        <!--android:columnWidth="90dp"-->
+        <!--android:divider="@color/dddddd"-->
+        <!--android:dividerHeight="1px"-->
+        <!--android:footerDividersEnabled="false"-->
+        <!--android:horizontalSpacing="0.0px"-->
+        <!--android:numColumns="2"-->
+        <!--android:scrollbars="none"-->
+        <!--android:verticalSpacing="0.0px"-->
+        <!--ptr:ptrAnimationStyle="flip"-->
+        <!--ptr:ptrHeaderBackground="@color/efefef"-->
+        <!--ptr:ptrHeaderSubTextColor="@color/refresh_heard_sub_text"-->
+        <!--ptr:ptrHeaderTextColor="@color/refresh_heard_text"-->
+        <!--ptr:ptrMode="both">-->
+
+    <!--</com.handmark.pulltorefresh.library.PullToRefreshListView>-->
+
+    <ListView
+        android:id="@+id/lv_phone_user_manage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:divider="@color/A00000000"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/f3f3f3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/A04a8ec">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:src="@mipmap/btn_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="键盘用户管理"
+            android:textColor="@color/ffffff"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rly_admin_manage"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@color/ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:text="管理员管理"
+            android:gravity="center_vertical"
+            android:textSize="15.2sp"
+            android:textColor="@color/A333333"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:src="@mipmap/btn_enter"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rly_ordinary_user"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:background="@color/ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:text="普通用户"
+            android:gravity="center_vertical"
+            android:textSize="15.2sp"
+            android:textColor="@color/A333333"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:src="@mipmap/btn_enter"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rly_disposable_user"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@color/ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:text="期限用户"
+            android:gravity="center_vertical"
+            android:textSize="15.2sp"
+            android:textColor="@color/A333333"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:src="@mipmap/btn_enter"/>
+    </RelativeLayout>
+
+</LinearLayout>
